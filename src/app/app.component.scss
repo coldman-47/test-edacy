@@ -1,0 +1,159 @@
+header{
+    min-height: 88px;
+    padding: 18px 24px;
+    background-color: #ffcc00;
+}
+
+header .col-6{
+    display: flex;
+    align-items: center;
+}
+#lang{
+    display: flex;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.input-group{
+    width: 80px;
+    display: flex;
+}
+
+.input-group-text{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-right:  12px;
+}
+
+.input-group .form-select{
+    padding: 0 !important;
+    width: 46px !important;
+}
+
+// #lang span{
+//     margin-right:  12px;
+// }
+
+#lang img{
+    height: 16px;
+    // margin-right: 4px;
+}
+
+#user{
+    display: flex;
+    width: 92px;
+    gap: 12px;
+    align-items: center;
+}
+
+#user img{
+    height: 24px;
+    width: 24px;
+}
+
+#avatar-box{
+    display: flex;
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background-color: #061020;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.45px;
+    color: white;
+}
+
+#main{
+    background-color: #fafcff;
+    height: 100%;
+}
+
+#sidebar{
+    width: 80px;
+    filter: drop-shadow(0px 8px 24px rgba(1, 12, 21, 0.04));
+}
+
+#content{
+    padding: 48px;
+    width: calc(100% - 80px);
+}
+
+.form-group{
+    margin: 1em 0;
+}
+
+label{
+    margin-bottom: .5em;
+}
+
+#submit{
+    background: #63BFAD;
+    border-radius: 4px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #061020;
+    border: none;
+}
+
+#submit:disabled{
+    opacity: .5;
+
+}
+
+#expand{
+    height: 24px;
+    width: 24px;
+    margin-right: -12px;
+    margin-top: 8px;
+    background-color: #63bfad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+}
+
+.navlink{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px 0
+}
+
+.navlink svg{
+    height: 16px;
+    width: 16px;
+    fill:#717171 !important
+}
+
+.navlink:hover{
+    background: rgba(255, 204, 0, .15)
+}
+
+.active svg{
+    fill: rgb(255, 204, 0) !important;
+}
+
+#back{
+    margin: 8px 0 12px;
+}
